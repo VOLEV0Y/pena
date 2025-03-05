@@ -4,3 +4,13 @@
 {
     "grade": "4"
 }
+2) https://einruealtwrhdpmpbaik.supabase.co/rest/v1/works
+тело
+
+{
+    "name": "кр2",
+    "desc": "6+6",
+    "subject": "математика",
+    "body": "3",
+    "student": "3"
+}
