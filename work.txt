@@ -24,3 +24,11 @@
 }
 
 4) GET https://einruealtwrhdpmpbaik.supabase.co/rest/v1/grades?grade=gt.3&select=*
+
+5) SQL editor Supabase
+CREATE VIEW teacher_grade_count AS
+SELECT teacher_id, COUNT(work_id) AS work_count
+FROM grades
+GROUP BY teacher_id;
+
+GET https://einruealtwrhdpmpbaik.supabase.co/rest/v1/teacher_grades_count?work_count=gt.2
