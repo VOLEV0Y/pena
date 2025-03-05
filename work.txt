@@ -1,0 +1,5 @@
+1) https://einruealtwrhdpmpbaik.supabase.co/rest/v1/grades?id=eq.1
+тело
+{
+    "grade": "4"
+}
