@@ -4,6 +4,7 @@
 {
     "grade": "4"
 }
+
 2) https://einruealtwrhdpmpbaik.supabase.co/rest/v1/works
 тело
 
@@ -13,4 +14,11 @@
     "subject": "математика",
     "body": "3",
     "student": "3"
+}
+
+3) POST https://einruealtwrhdpmpbaik.supabase.co/rest/v1/students
+тело
+{
+    "fullname": "Петя Федяненко",
+    "group_id": "1"
 }
