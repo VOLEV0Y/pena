@@ -22,3 +22,5 @@
     "fullname": "Петя Федяненко",
     "group_id": "1"
 }
+
+4) GET https://einruealtwrhdpmpbaik.supabase.co/rest/v1/grades?grade=gt.3&select=*
